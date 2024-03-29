@@ -1,4 +1,4 @@
-# Defensive-Programing
+# Storage Server
 
 This project is a client-server software that allows clients to transfer files encrypted from their computers to the server for storage. The server is written in Python and the client is written in C++.
 
