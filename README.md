@@ -14,3 +14,10 @@ The software architecture is based on a client-server model. The client initiate
 The client ensures that the server receives the file correctly by comparing checksums on both sides. If the file transfer fails, the client attempts to resend it up to three times.
 
 ![image](https://github.com/BarakShamailov/Defensive-Programing/assets/62948065/dc13b0de-8ecd-4a9f-8ef4-ae4f40848e9c)
+
+## Prerequisites
+1. Install CryptoPP package for the client side.
+2. Install PyCryptodome for the server side:
+   ```bash
+   > pip install pycryptodome
+   ```
